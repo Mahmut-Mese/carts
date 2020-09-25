@@ -1,0 +1,63 @@
+
+@media (min-width:767px) {
+  .card {
+   
+    height: 500px;}}
+
+@media (max-width:769px) {
+ .swiper-container{   -webkit-transition: top 2s; /* For Safari 3.1 to 6.0 */
+  transition: top 2s;}
+  .swiper-slide, .days-of-the-week .cart:last-child{height: auto !important;}
+ 
+  .swiper-slide .mid-img{height: 250px;}
+ 
+ 
+ 
+  .days-of-the-week  .cart {
+ 
+    overflow: hidden;
+    padding: 0px;
+    position:relative;
+    margin-top: -460px;
+    
+  }
+ 
+  
+  .days-of-the-week {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 5px;
+  }
+  .cart:nth-child(1) {
+   margin-top:5px;
+}
+.card{max-height: 640px;}
+.card_logo {height: 50px;
+ }
+.card img {
+  width: 100%;
+ 
+}
+.mid-img{ height: 150px;    object-fit: cover;}
+/* .cart:nth-child(2) {
+  top:80px;
+}
+.cart:nth-child(3) {
+  top:120px;
+}
+.cart:nth-child(4) {
+  top:160px;
+}
+.cart:nth-child(5) {
+  top:200px;
+}
+.cart:nth-child(6) {
+  top:240px;
+} */
+  
+}
+@media (max-width:320px) {
+  .card {
+   
+   height: 485px;}}
